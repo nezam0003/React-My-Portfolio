@@ -30,14 +30,21 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+
+
 }
 body{
   background: var(--background-dark-color);
   color: var(--font-light-color);
-  font-size: 1rem;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+a{
+ font-size: inherit;
+font-family: inherit;
+color: inherit;
 }
 
 `;

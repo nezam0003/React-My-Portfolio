@@ -65,6 +65,7 @@ const UnorderList = styled.ul`
       position: relative;
       z-index: 10;
       transition: var(--mainTransition);
+      font-weight: 600;
 
       &:hover {
         cursor: pointer;

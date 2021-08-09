@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Nunito', sans-serif;
 
 
 }
@@ -43,8 +43,20 @@ body{
 }
 a{
  font-size: inherit;
-font-family: inherit;
-color: inherit;
+ font-family: inherit;
+ color: inherit;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--white-color);
+
+    span{
+        font-size: inherit;
+    }
+}
+span{
+    color: var(--primary-color);
 }
 
 `;
